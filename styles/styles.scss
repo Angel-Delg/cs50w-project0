@@ -1,0 +1,31 @@
+.header {
+    max-height: 90vh;
+    background-image: url(../images/fondoPantalla.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    .img-logo{
+        width: 50px;
+    }
+}
+
+.card-effect{
+    &:hover{   
+        .card{
+            transition: all .6s;
+            -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+    }
+
+    .card{
+        
+        .card-img{
+            filter: brightness(0.6);
+        }
+    }
+    
+}
