@@ -1,0 +1,49 @@
+.header{
+    max-height: 90vh;
+    background-image: url(../images/fondoPantalla.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card-img-filter {
+    filter: brightness(0.6);
+}
+/* efectos de la cards */
+/* 
+.card{
+    transition-duration:.6s;
+    clip-path: polygon(
+        50% 0,
+        50% 0,
+        100% 50%,
+        100% 50%,
+        50% 100%,
+        50% 100%,
+        0 50%
+        0 50%
+    );
+}
+.card-effect:hover .card{
+    clip-path: polygon(
+        50% 0,
+        50% 0,
+        100% 50%,
+        100% 50%,
+        50% 100%,
+        50% 100%,
+        0 50%
+        0 50%
+    );
+} */
+/* 
+.card-heigth{
+    width: auto;
+    height: 80px;
+} */
+
+.description{
+    height: 400px;
+}
+.img-logo{
+    width: 50px;
+}
