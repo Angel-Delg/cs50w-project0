@@ -56,3 +56,22 @@ $medium: 700px;
     }
     
 }
+
+$color: #333;
+$letter: #fff;
+
+.footer{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: $letter;
+    background-color: $color;
+}
+
+// estilos de imagenes de carrusel
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
