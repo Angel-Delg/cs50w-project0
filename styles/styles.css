@@ -1,4 +1,4 @@
-.header {
+.header, .banner-description {
   max-height: 90vh;
   background-image: url(../images/fondoPantalla.jpg);
   background-position: center;
@@ -6,19 +6,35 @@
   background-attachment: fixed;
 }
 
+.banner-description {
+  height: 500px;
+  background-image: url(../images/banner.jpg);
+}
+.banner-description .title-description {
+  font-size: 100px;
+}
+
+@media screen and (max-width: 300px) {
+  .title-description {
+    font-size: 70px;
+    line-height: 500px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title-description {
+    font-size: 200px;
+  }
+}
 .navbar-brand .img-logo {
   width: 50px;
 }
 
 .card-effect:hover .card {
-  -webkit-transition: all .6s;
-  transition: all .6s;
+  transition: all 0.6s;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  font-size: 1.2rem;
 }
-
 .card-effect .card .card-img {
-  -webkit-filter: brightness(0.6);
-          filter: brightness(0.6);
-}
-/*# sourceMappingURL=styles.css.map */
+  filter: brightness(0.6);
+}/*# sourceMappingURL=styles.css.map */

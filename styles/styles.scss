@@ -1,9 +1,36 @@
-.header {
+.header{
     max-height: 90vh;
     background-image: url(../images/fondoPantalla.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.banner-description{
+    @extend .header;
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+
+    .title-description{
+        font-size: 100px;
+    }
+}
+
+$small: 300px;
+$medium: 700px;
+
+@media screen and (max-width: $small){
+    .title-description{
+        font-size: 70px;
+        line-height: 500px;
+    }
+}
+
+@media screen and (max-width: $medium) {
+    .title-description{
+        font-size: 200px;
+    }
+    
 }
 
 .navbar-brand {
@@ -18,9 +45,9 @@
             transition: all .6s;
             -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
             clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            font-size: 1.2rem;
         }
     }
-
     .card{
         
         .card-img{
