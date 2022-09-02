@@ -1,7 +1,20 @@
-# Pagina ejemplo que habla acerca de la cultura del pais de marruecos y lugares turisticos #
-<h3>Marruecos es un pais arabe ubicado en africa del norte</h3>
+<h1>Marruecos</h1>
+<span>Esta pagina mostrara las bellezas que posee el país de marruecos</span>
 
-<p>Por lo cual me inspire en mostrar algunas bellezas de el por la cual me gusta mucho su cultura y tradiciones que siguen los musulmanes hacia el coran su biblia</p>
+<p>Esta pagina posee 4 archivos html donde tenemos: </p>
 
+<ul>
+    <li>Inicio</li>
+    <li>Experiencias</li>
+    <li>Inspiraciones</li>
+    <li>Y algunos rasgos de este pais</li>
+</ul>
 
-<span>Alumno:Angel Lopez Delgado web50x.ni</span>
+<h2>Tecnologías usadas</h2>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>SASS</li>
+    <li>Bootstrap 5</li>
+</ul>
