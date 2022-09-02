@@ -23,13 +23,11 @@
 
 
 <ul>
-    <li>Inicio: Damos una pequeña introducción de este pais/li>
-    <li>Inspiraciones: </li>
-    <li>SASS</li>
-    <li>Bootstrap 5</li>
+    <li>Inicio: Damos una pequeña introducción de este pais</li>
+    <li>Experiencias: Hablamos acerca de su religion que experiencias vivimos al ver su religion tanto a su Dios que dan reso</li>
+    <li>Inspiraciones: Vemos tabla de personas que viajan desde distintas partes del pais que los inspiran a conocer mas marruecos </li>
+    <li>Rasgos: Mostramos pequeños datos como musicas y bailes ...</li>
 </ul>
-
-
 
 
 <span>Primera alternativa aqui github pages:</span>
