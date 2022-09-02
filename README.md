@@ -18,3 +18,24 @@
     <li>SASS</li>
     <li>Bootstrap 5</li>
 </ul>
+
+<h2>Descripción</h2>
+
+
+<ul>
+    <li>Inicio: Damos una pequeña introducción de este pais/li>
+    <li>Inspiraciones: </li>
+    <li>SASS</li>
+    <li>Bootstrap 5</li>
+</ul>
+
+
+
+
+<span>Primera alternativa aqui github pages:</span>
+<a style="text-decoration: none; color: #fff;" href="https://cs50w-project0.vercel.app/"><strong>Click me...</strong></a>
+
+<span>Si da 404 puedes ver esta segunda alternativa</span>
+<a style="text-decoration: none; color: #fff;" href="https://cs50w-project0.vercel.app/"><strong>Puedes visitar el sitio aqui</strong></a>
+
+<footer>Creado por: Angel Lopez Delgado</footer>
